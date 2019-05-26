@@ -14,6 +14,11 @@ import { WellnessAndSpaComponent } from './lifestyle/wellness-and-spa/wellness-a
 import { ResortActivitiesComponent } from './lifestyle/resort-activities/resort-activities.component';
 import { ExperiencesComponent } from './lifestyle/experiences/experiences.component';
 import { ExcursionsComponent } from './lifestyle/excursions/excursions.component';
+import { WeddingsComponent } from './weddings/weddings.component';
+import { ThaiWeddingsComponent } from './weddings/thai-weddings/thai-weddings.component';
+import { WesternWeddingsComponent } from './weddings/western-weddings/western-weddings.component';
+import { CelebrationsComponent } from './celebrations/celebrations.component';
+import { OffersComponent } from './offers/offers.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +32,12 @@ import { ExcursionsComponent } from './lifestyle/excursions/excursions.component
     WellnessAndSpaComponent,
     ResortActivitiesComponent,
     ExperiencesComponent,
-    ExcursionsComponent
+    ExcursionsComponent,
+    WeddingsComponent,
+    ThaiWeddingsComponent,
+    WesternWeddingsComponent,
+    CelebrationsComponent,
+    OffersComponent
   ],
   imports: [
     BrowserModule,
